@@ -1,0 +1,30 @@
+.contaner{
+    width:100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.contaner .hed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 70px;
+}
+.contaner .hed .icon{
+    width: 12rem;
+    margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+.contaner .hed .icon i{
+    /* color: #e18c0c; */
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.contaner .hed .icon h6{
+    font-size: 22px;
+    font-weight: bold;
+}

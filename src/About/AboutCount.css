@@ -1,0 +1,66 @@
+.aboutcoubt{
+    width: 95%;
+    margin: auto;
+    /* background-color: rgb(32, 25, 25); */
+    border-radius: 5px;
+    padding: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.aboutcoubt .countactabout{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 20px;
+    padding: 20px;
+    /* width: 100%; */
+}
+.aboutcoubt .countactabout .colme{
+    width: 22rem;
+    background-color: #000000;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 10px 10px 5px #493a3a;
+    transition: 0.5s;
+}
+.aboutcoubt .countactabout .colme:hover{
+box-shadow: 10px 10px 5px #cebdbd;
+}
+
+.aboutcoubt .countactabout .colme h6{
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.aboutcoubt .countactabout .colme p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.aboutcoubt .countactabout .colme i{
+    font-size: 80px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+.aboutcoubt .countactabout .colme h4{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width:700px) {
+    .aboutcoubt{
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+    
+} 

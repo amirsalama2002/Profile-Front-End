@@ -1,0 +1,39 @@
+.cardd{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.cardd .card{
+    width: 22rem;
+    margin-bottom: 40px;
+    background-color: rgb(50, 50, 48);
+    padding: 5px;
+}
+.cardd .card .card-body i{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(210, 160, 9);
+}
+.cardd .card h5{
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.cardd .card h6{
+    font-size: 20px;
+color: rgb(210, 160, 9) !important;
+}
+@media screen and (max-width:700px){
+    .cardd{
+        width: 90%;
+        margin: 20px auto;
+    }
+}

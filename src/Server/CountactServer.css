@@ -1,0 +1,83 @@
+.countactserver{
+    width: 90%;
+    margin: auto;
+    /* padding: 40px; */
+}
+
+.countactserver .cen{
+    background-color: black;
+    margin-top: -40px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.countactserver  .hed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 20px;
+}
+.countactserver .hed .card{
+    width: 20rem;
+    height: 350px;
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.countactserver .hed .card img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: 38%;
+    border-radius: 50%;
+    margin-bottom: 70px;
+    text-align: center;
+    border:  8px solid white;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px black;
+}
+.countactserver .hed .card img:hover{
+    box-shadow: 0px 0px 5px rgb(105, 96, 96);
+
+}
+.countactserver .hed .card h5{
+    margin-top: 50px;
+}
+.countactserver .hed .card p{
+    margin-bottom: 30px;
+}
+
+
+.countactserver .hed .card .price{
+    position: absolute;
+    width: 100%;
+    margin-left: -16px;
+    background-color: #383838;
+    bottom: 0;
+    padding: 30px 0;
+}
+.countactserver .hed .card .price h3{
+        color: #fdc400;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1em;
+        padding: 0 0 10px;
+}
+
+@media screen and(max-width:700px) {
+    .countactserver{
+        width: 100%;
+        margin: auto;
+        /* padding: 2px !important; */
+    }
+}
+
+
+  
+  

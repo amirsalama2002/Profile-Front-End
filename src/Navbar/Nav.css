@@ -1,0 +1,75 @@
+.navcope .navbar{
+    width: 100%;
+    /* position: fixed; */
+    /* margin-bottom: 100px; */
+    background-color: white;
+    padding: 10px 40px;
+   box-shadow: 0px 0px 10px black;
+    z-index: 999;
+}
+.navcope .navbar .navbar-brand{
+    margin-right: 400px;
+}
+.navicon .navbar ul li .nav-link{
+    font-size: 20px !important;
+}
+.navcope .navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 1px 1px 1px 2px black;
+}
+.navcope .navbar .im{
+    display: flex;
+}
+.navcope .navbar .im h4{
+    margin-top: 20px;
+    margin-left: 5px;
+    display: none;
+}
+/* navicon */
+
+.navcope .navicon{
+    display: none;
+}
+.navcope .navicon{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+}
+.navcope .navicon ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.navcope .navicon ul li .nm{
+list-style: none;
+text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.navcope .navicon ul li .nm:hover{
+    color: #123456;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+@media screen and (max-width:700px) {
+    .navcope .nav1{
+        display: none;
+    }
+    .navcope .navbar .navbar-brand{
+        margin-right: 10px;
+    }
+    .navcope .navbar .im h4{
+        display: block;
+    }
+
+}

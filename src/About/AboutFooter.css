@@ -1,0 +1,74 @@
+.aboutfot{
+    width: 85%;
+    margin: auto;
+}
+.aboutfot .flk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutfot .flk .monn{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.aboutfot .flk .monn .toglr{
+    border: 1px solid rgba(0, 0, 0, 0.327);
+    text-align: center;
+    padding: 30px;
+    width: 9rem;
+    margin: 20px ;
+    text-align: center;
+}
+
+.aboutfot .flk .monn .toglr i{
+    font-size: 40px;
+    color: rgb(255, 136, 0);
+}
+.aboutfot .flk .monn .toglr p{
+    font-size: 30px;
+    color: rgb(255, 136, 0);
+    margin: 10px 0;
+
+}
+.aboutfot .flk .monn .toglr h6{
+    font-size: 15px;
+    font-weight: bold;
+}
+.aboutfot .flk .mon{
+    width: 40%;
+    margin: auto;
+}
+.aboutfot .flk .mon h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.aboutfot .flk .mon h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgba(0, 0, 0, 0.731);
+}
+.aboutfot .flk .mon h4{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.548);
+}
+@media screen and (max-width:1000px) {
+    .aboutfot .flk .monn .toglr{
+        width: 9rem;
+        margin: 20px auto ;
+    }
+    .aboutfot .flk .mon{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutfot{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+}
+

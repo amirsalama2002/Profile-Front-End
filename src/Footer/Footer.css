@@ -1,0 +1,63 @@
+.countact-us{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(34, 31, 31, 0.994);
+   padding-bottom: 50px;
+}
+
+.countact-us .count{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-grow: 20px;
+    padding: 40px 0;
+}
+.countact-us .count .sd{
+    margin-bottom: 20px;
+}
+.countact-us .count .sd h3{
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: 200px;
+      color: rgba(255, 255, 255, 0.795);
+      margin-bottom: 30px;
+}
+
+.countact-us .count .sd span{
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.327);
+}
+.countact-us .count .sd span a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin-left: 4px;
+}
+.countact-us .count .sd span a:hover{
+    color: white;
+}
+
+.countact-us .count .sd a i{
+    color: rgba(255, 240, 240, 0.447);
+   margin-right: 30px;
+   font-size: 25px;
+}
+
+.countact-us .count .sd h4{
+    color: rgba(255, 255, 255, 0.474);
+    font-size: 15px;
+    
+}
+
+.countact-us h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.364);
+    font-size: 15px;
+    padding: 40px;
+}
+
+.countact-us h1 span{
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,23 @@
+.about{
+    padding: 60px 0 20px 0;
+    text-align: center;
+    width: 95% ;
+    margin: auto;
+}
+
+.about h1{
+    text-transform: uppercase;
+    font-size: -webkit-calc(2.1875rem + (96 - 35) * ((100vw - 48rem)/ (1920 - 768)));
+    font-size: calc(2.1875rem + (96 - 35) * ((100vw - 48rem)/ (1920 - 768)));
+    font-family: "WPP Black",sans-serif;
+    line-height: 1.2;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+    margin: 0 auto;
+}
+
+.about h1 strong {
+    font-family: "Bold",sans-serif;
+    -webkit-text-fill-color: #000000;
+}

@@ -1,0 +1,65 @@
+.hederserver{
+    display: flex;
+    padding: 100px 0;
+    width: 100%;
+    margin: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('../../public/imgss/mg.webp');
+    background-size: cover;
+    background-position: center;
+    height: 99.7vh;
+    align-items: center;
+}
+
+.hederserver .heserver{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.hederserver .heserver .hedserver{
+      width: 100%;
+      margin: auto;
+}
+.hederserver .heserver .hedserver h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.hederserver .heserver .hedserver h1 span{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hederserver .heserver .hedserver h5{
+    font-size: 20px;
+    color: white;
+    font-weight:400px;
+}
+
+.hederserver .heserver .hedserver button{
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:990px) {
+    .hederserver .heserver .hedserver h1{
+        font-size: 25px;
+    }
+    .hederserver .heserver .hedserver h1 span{
+        font-size: 30px;
+    }
+    .hederserver .heserver .hedserver h5{
+        font-size: 17px;
+        color: white;
+        font-weight:400px;
+    }
+}

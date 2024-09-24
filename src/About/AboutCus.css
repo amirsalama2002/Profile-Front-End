@@ -1,0 +1,38 @@
+.aboutcus{
+    width: 85%;
+    margin: 60px auto;
+}
+
+.aboutcus .cus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.aboutcus .cus .abouthed{
+    width: 35rem;
+}
+
+.aboutcus .cus .abouthed  h1{
+    margin-bottom: 20px;
+}
+
+.aboutcus .cus .abouthed  h5{
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.aboutcus .cus .abouthed  iframe{
+    width: 99%;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #030303;
+}
+
+@media screen and (max-width:700px) {
+    .aboutcus{
+        width: 93%;
+        margin: auto;
+    }
+    
+} 

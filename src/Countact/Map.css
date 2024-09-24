@@ -1,0 +1,49 @@
+.mapp{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    flex-grow: 20px;
+}
+.mapp .mapps{
+    width: 30rem;
+}
+.mapp .mapps iframe{
+    width: 125%;
+    height:60vh;
+    margin:30px auto;
+}
+.mapp .mapps h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.mapp .mapps .data{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.mapp .mapps .data span{
+    font-weight: bold;
+}
+.mapp .mapps .data i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.mapp .mapps .data p{
+    font-weight: 100px;
+}
+
+@media screen and (max-width:700px){
+    .mapp{
+        width: 90%;
+        margin: auto;
+    }
+    .mapp .mapps iframe{
+        width: 100%;
+        height:60vh;
+        margin:30px auto;
+    }
+}

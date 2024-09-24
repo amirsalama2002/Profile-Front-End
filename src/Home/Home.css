@@ -1,0 +1,50 @@
+.home{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../../public/imgss/homepage-hero-new.png');
+    background-size: cover;
+    width: 100%;
+    padding: 220px 0;
+}
+.home .clom{
+    margin: 0 20px;
+}
+.home .hed{
+    text-align: center;
+
+}
+
+.home .hed .clom h1{
+        text-transform: uppercase;
+        font-size: -webkit-calc(2.1875rem + (96 - 35) * ((100vw - 48rem)/ (1920 - 768)));
+        font-size: calc(2.1875rem + (96 - 35) * ((100vw - 48rem)/ (1920 - 768)));
+        font-family: "WPP Black",sans-serif;
+        line-height: 1.2;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-color: #FFF;
+        -webkit-text-stroke-width: 1px;
+        margin: 0 auto;
+    }
+
+    .home .hed .clom h1 strong {
+        font-family: "Bold",sans-serif;
+        -webkit-text-fill-color: #FFF;
+    }
+
+    .home .hed .clom p {
+        margin: 40px 0;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .home .hed .clom p {
+        color: #FFF;
+        z-index: 101;
+    }
+    .home .hed .clom button{
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-size: 15px;
+        color: white;
+        border: 2px solid rgb(8, 164, 182);
+        background-color: rgba(0, 170, 255, 0);
+    }
