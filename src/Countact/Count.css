@@ -12,6 +12,7 @@
 
 .car .card{
     width: 22rem;
+    margin: auto;
     margin-bottom: 40px;
     background-color: rgb(113, 106, 2);
     padding: 5px;

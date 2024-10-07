@@ -1,5 +1,5 @@
 .aboutfot{
-    width: 85%;
+    width: 95%;
     margin: auto;
 }
 .aboutfot .flk{
@@ -19,8 +19,10 @@
     border: 1px solid rgba(0, 0, 0, 0.327);
     text-align: center;
     padding: 30px;
-    width: 9rem;
-    margin: 20px ;
+    width: 10rem;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
     text-align: center;
 }
 

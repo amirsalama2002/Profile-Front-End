@@ -12,6 +12,7 @@
 
 .cardd .card{
     width: 22rem;
+    margin: auto;
     margin-bottom: 40px;
     background-color: rgb(50, 50, 48);
     padding: 5px;

@@ -3,7 +3,6 @@
     margin: auto;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
     flex-grow: 20px;
 }
@@ -13,7 +12,8 @@
 .mapp .mapps iframe{
     width: 125%;
     height:60vh;
-    margin:30px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .mapp .mapps h1{
     font-size: 20px;
