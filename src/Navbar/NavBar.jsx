@@ -6,6 +6,8 @@ import NoPage from "../NoPage/NoPage";
 import Messge from "../Countact/Messge";
 import HomeMore from "../More/HomeMore";
 import FullStack from "../Full-Stack/Full-Stack";
+import Free from "../Free/Free";
+import Premium from "../Premium/Premium";
 import Nav from "./Nav";
 const NavBar = () => {
   return (
@@ -19,6 +21,8 @@ const NavBar = () => {
           <Route path="/countactus" element={<Messge/>} />
           <Route path="/homemore" element={<HomeMore/>} />
           <Route path="/full-stack" element={<FullStack/>} />
+          <Route path="/free" element={<Free/>} />
+          <Route path="/premium" element={<Premium/>} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

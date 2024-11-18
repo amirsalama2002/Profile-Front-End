@@ -6,6 +6,7 @@ const FullStack = () => {
     return (
         <div className='full-stack'>
             <Hede/>
+            {/* <h1>Welcome To All</h1> */}
            <HomeSull/>
         </div>
     );
