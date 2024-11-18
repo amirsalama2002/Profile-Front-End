@@ -3,6 +3,7 @@
     background-size: cover;
     width: 100%;
     padding: 190px 0;
+    height: 100vh;
 }
 .home .clom{
     margin: 0 20px;
@@ -37,12 +38,11 @@
 
     .home .hed .clom p {
         margin: 40px 0;
-        font-size: 22px;
-        letter-spacing: 0.5s;
-        font-weight: 700px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        letter-spacing: 1s;
+        font-weight:200;
+        font-family: "WPP Black",sans-serif;
         text-transform: capitalize;
-        
     }
 
     .home .hed .clom p {
@@ -65,4 +65,18 @@
             background-color: rgb(53, 5, 120);  
             border: 2px solid white;        
         }
+    }
+
+    @media screen and (max-width:700px)  {
+        .home .hed .clom h1{
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: "WPP Black",sans-serif;
+            line-height: 1.2;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-color: #FFF;
+            -webkit-text-stroke-width: 1px;
+            margin: 0 auto;
+            animation: name 1s steps(5, start) infinite;
+        }   
     }
