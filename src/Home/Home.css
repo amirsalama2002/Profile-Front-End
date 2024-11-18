@@ -1,8 +1,8 @@
 .home{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../../public/imgss/homepage-hero-new.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.82),rgba(0, 0, 0, 0.825)), url('../../public/imgss/homepage-hero-new.png');
     background-size: cover;
     width: 100%;
-    padding: 220px 0;
+    padding: 190px 0;
 }
 .home .clom{
     margin: 0 20px;
@@ -22,6 +22,12 @@
         -webkit-text-stroke-color: #FFF;
         -webkit-text-stroke-width: 1px;
         margin: 0 auto;
+        animation: name 1s steps(5, start) infinite;
+    }
+    @keyframes name{
+       50%{
+            opacity: 0;
+        }
     }
 
     .home .hed .clom h1 strong {
@@ -31,20 +37,32 @@
 
     .home .hed .clom p {
         margin: 40px 0;
-        font-size: 20px;
-        font-weight: 200;
+        font-size: 22px;
+        letter-spacing: 0.5s;
+        font-weight: 700px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+        
     }
+
     .home .hed .clom p {
         color: #FFF;
         z-index: 101;
     }
-    .home .hed .clom button{
+    .home .hed .clom .btn{
         outline: none;
         border: none;
         padding: 10px 20px;
         border-radius: 30px;
-        font-size: 15px;
+        font-size: 18px;
+        /* font-weight: bold; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
-        border: 2px solid rgb(8, 164, 182);
-        background-color: rgba(0, 170, 255, 0);
+        border: 2px solid rgb(4, 52, 114);
+        background-color: rgb(4, 11, 83); 
+        transition: 0.5s;
+        &:hover{
+            background-color: rgb(53, 5, 120);  
+            border: 2px solid white;        
+        }
     }

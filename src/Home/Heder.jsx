@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Home.css';
 const Heder = () =>{
     return(
@@ -7,9 +8,9 @@ const Heder = () =>{
             <div className="clom">
             <h1> we are <strong>the creative <br/> transformation </strong>company</h1>
                 <p>Using the power of creativity to build better futures <br/>
-                for our people, planet, clients and communities
+                for our people planet clients and communities
                 </p>
-                <button>Full-Stack Developer</button>
+                <Link to="/full-stack" className='btn'>Full Stack Developer</Link>
             </div>
           </div>
         </div>

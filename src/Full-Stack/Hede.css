@@ -1,0 +1,65 @@
+.hede{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    margin-top: 70px;
+}
+.hede .badge{
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.hede .highlight{
+    background: linear-gradient(90deg, rgb(240, 6, 181) 0%,
+     rgb(150, 23, 255) 35%, rgb(0, 119, 255) 100%);   
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.hede p{
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+
+/* good */
+.good{
+    width: 25%;
+    margin: auto;
+    border-radius: 4px;
+}
+.good .kll{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(28, 26, 26, 0.632);
+}
+
+.good .kll .lo{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    &:focus{
+        background-color: black;
+        border-radius: 5px;
+    }
+    &:hover{
+        background-color: black;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .good{
+        width: 70%;
+        margin: auto;
+        border-radius: 4px;
+    }
+}

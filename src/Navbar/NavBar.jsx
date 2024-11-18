@@ -5,8 +5,8 @@ import Server from "../Server/Server";
 import NoPage from "../NoPage/NoPage";
 import Messge from "../Countact/Messge";
 import HomeMore from "../More/HomeMore";
+import FullStack from "../Full-Stack/Full-Stack";
 import Nav from "./Nav";
-
 const NavBar = () => {
   return (
     <div>
@@ -18,6 +18,7 @@ const NavBar = () => {
           <Route path="/server" element={<Server />} />
           <Route path="/countactus" element={<Messge/>} />
           <Route path="/homemore" element={<HomeMore/>} />
+          <Route path="/full-stack" element={<FullStack/>} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

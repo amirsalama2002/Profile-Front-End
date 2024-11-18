@@ -28,3 +28,43 @@
     font-size: 22px;
     font-weight: bold;
 }
+
+
+
+/* Anmision */
+/* App.css */
+.animacthen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box {
+    width: 23rem;
+    padding: 50px;
+    /* height: 200px; */
+    background-color: #123456;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    animation: box 2s infinite;
+    margin: 9px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #123444;
+  }
+  
+  @keyframes box {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+  

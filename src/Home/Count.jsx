@@ -19,7 +19,7 @@ const Count = () => {
     {
       id: 3,
       title: "Information Technology",
-      name: "it legend company provides information technology consulting services, which is an important service aimed at helping customers understand and analyze their technological challenges and provide them with appropriate solutions.",
+      name: "it mero company provides information technology consulting services, which is an important service aimed at helping customers understand and analyze their technological challenges and provide them with appropriate solutions.",
       email: "bob.johnson@example.com",
       imgs: "/imgss/custom.png"
     },

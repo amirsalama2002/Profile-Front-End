@@ -1,0 +1,45 @@
+.full{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 85px 0;
+}
+
+.full .nm{
+    border: 2px solid rgb(154, 133, 133);
+    padding:4px;
+    margin: 10px 0;
+}
+
+.full .full-value{
+    width: 30rem;
+    margin: auto;
+}
+.full .full-value h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 15px 0px;
+}
+.full .full-value .vo{
+    color:rgb(198, 161, 161);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.full .full-name{
+    width: 30rem;
+    border: 2px solid white;
+    padding: 5px;
+    background-color: black;
+}
+.full .full-name img{
+    width: 100%;
+    height: 58vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}

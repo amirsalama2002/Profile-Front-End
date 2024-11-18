@@ -22,3 +22,80 @@
 }
 }
 
+
+/* Slide 2 */
+/* Slider container styling */
+.ali{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mostafe{
+  width: 35rem;
+  margin: auto;
+}
+.mostafe .hen{
+  width: 100%;
+  margin: auto;
+  background-color: rgb(24, 36, 47);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.mostafe .hen h1{
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.mostafe .hen p{
+  font-weight:bold;
+  /* list-style: 1px; */
+  font-size: 15px;
+  color: white;
+  text-transform: capitalize;
+}
+.slider-container {
+    position: relative;
+    width: 35rem;
+    margin: auto;
+    border: 2px solid #123456;
+  margin-bottom: 20px;
+  border-radius: 2px;
+
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .navigation-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+ 
+  
