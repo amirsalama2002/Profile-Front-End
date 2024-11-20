@@ -18,6 +18,8 @@ function HomeSull() {
      };
 
   return (
+    <div className="hhh">
+      <h2>Work skills</h2>
     <div className='full'>
         <div className="full-value">
             <div className="nm">
@@ -27,7 +29,7 @@ function HomeSull() {
       </div>
       <div className="nm">
       <h2>Back-End Developer ?</h2>
-      <input  type="range" min="0" max="100" value={amir} onChange={falcon}style={{ width: '100%' }}/>
+      <input className='mmm'  type="range" min="0" max="100" value={amir} onChange={falcon}style={{ width: '100%' }}/>
       <div className='vo'>Value : {amir}%</div>
          </div>
          <div className="nm">
@@ -36,9 +38,10 @@ function HomeSull() {
       <div className='vo'>Value : {salama}%</div>
          </div>
       </div>
-      {/* <div className="full-name">
-        <img src="/imgss/WhatsApp Image 2024-05-30 at 7.11.09 AM.jpeg" alt="" />
-      </div> */}
+      <div className="full-name">
+        <img src="/imgss/software-team.jpg" alt="" />
+      </div>
+    </div>
     </div>
   );
 }

@@ -12,7 +12,7 @@ const SliderFull = () => {
          name:'HTML, CSS, Javascript, Bootstrap, Rectjs',
          free:'100$',
          link:'https://themewagon.github.io/onix/',
-         caption: 'Slide 1' 
+         caption: '9' 
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const SliderFull = () => {
       name:'HTML, CSS, Javascript, Bootstrap, Rectjs',
       free:'199$',
       link:'https://themewagon.github.io/organic/',
-      caption: 'Slide 2'
+      caption: '10'
      },
     {
       id: 3,
@@ -30,7 +30,7 @@ const SliderFull = () => {
       name:'HTML, CSS, Javascript, Bootstrap, Rectjs',
       free:'150$',
       link:'https://raw.githubusercontent.com/Harshk8853/jane-portfolio/refs/heads/main/iamgee.png',
-      caption: 'Slide 3' 
+      caption: '11' 
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const SliderFull = () => {
       name:'HTML, CSS, Javascript, Bootstrap, Rectjs',
       free:'69$',
       link:'https://themewagon.github.io/Hudson/',
-      caption: 'Slide 4' 
+      caption: '12' 
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ const SliderFull = () => {
       name:'HTML, CSS, Javascript, Bootstrap, Rectjs',
       free:'199$',
       link:'https://themewagon.github.io/restoran/',
-      caption: 'Slide 5' 
+      caption: '13' 
     },
     { 
       id: 6,
@@ -57,7 +57,7 @@ const SliderFull = () => {
       name:'HTML, CSS, Javascript, Bootstrap, Rectjs',
       free:'250$',
       link:'https://themewagon.github.io/karma/',
-      caption: 'Slide 6'
+      caption: '14'
      },
   ];
 
@@ -69,6 +69,19 @@ const SliderFull = () => {
   }, [slides.length]);
 
   return (
+    <div className="tark">
+        <h2>Letest Templetes</h2>
+    <div className="ahmed">
+        <div className="templet">
+           <h4>We are Developers</h4>
+           <h5>We Can Design Anything You Want</h5>
+           <h6>At Spandex, we specialize in transforming your ideas into powerful digital experiences. Our expertise spans across web development, software solutions, and custom design tailored to meet your needs.</h6>
+           <p>Our dedicated team ensures every project reflects excellence and creativity.</p>
+           <h1 class="hero-title">
+    Your Business Deserves the Best -<span class="highlight"> Create Your Website Today</span>
+  </h1>
+  <h3>Discover cutting-edge technology and strategies designed to streamline your operations and enhance your growth. Join us on a journey to innovation!</h3>
+        </div>
     <div className="slider-container">
       <div className="slider">
         <div
@@ -94,6 +107,8 @@ const SliderFull = () => {
           ))}
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };

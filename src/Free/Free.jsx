@@ -3,11 +3,12 @@ import "./Free.css";
 import Hede from '../Full-Stack/Hede';
 import HomeSull from '../Full-Stack/Home-Sull';
 import SliderFull from '../Full-Stack/Slider-Full';
+import FullFree from './Full-Free';
 const Free = () => {
     return (
         <div className='free'>
             <Hede/>
-             {/* <h1>Welcome To Free</h1> */}
+              <FullFree/>
              <SliderFull/>
             <HomeSull/>
         </div>

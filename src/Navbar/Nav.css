@@ -19,32 +19,16 @@
     margin-right: 300px;
     margin-top: 10px;
 }
-/* .navcope .navbar .navbar-brand{
-    font-size: 20px;
-    text-transform: uppercase;
+
+.navcope .navbar .im i{
+    font-size: 30px;
     font-weight: bold;
-    color: white;
-    outline: none;
-    &:hover{
-        color: white;
-        cursor: pointer;
-    }
-} */
-.navcope .navbar img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 10px solid white;
-    box-shadow: 1px 1px 1px 2px black;
+    /* margin: 15px 0px; */
+    background: linear-gradient(90deg, rgb(240, 6, 181) 0%, rgb(150, 23, 255) 35%, rgb(0, 119, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.navcope .navbar .im{
-    display: flex;
-}
-.navcope .navbar .im h4{
-    margin-top: 20px;
-    margin-left: 5px;
-    display: none;
-}
+
 /* navicon */
 
 .navcope .navicon{
@@ -93,9 +77,18 @@ li{
         border-radius: 5px;
     }
 }
-#bn{
-    background-color: white;
-    font-size: 20px;
+#bn i{
+    /* background-color: white !important; */
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    &:hover{
+        border: none;
+    }
+    &:focus{
+        border: none;
+    }
+    /* border: 2px solid red; */
 }
 
 @media screen and (max-width:700px) {
@@ -112,4 +105,9 @@ li{
         margin-right:0px !important;
     }
 
+}
+@media screen and (max-width:992px) {
+    .navcope .navbar .im i{
+        display: none;
+    }
 }

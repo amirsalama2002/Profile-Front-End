@@ -10,7 +10,8 @@ const Nav = () => {
    Spandex&lt;code&gt;</h1>
   </a>
   <button id="bn" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
+    {/* <span className="navbar-toggler-icon"></span> */}
+    <i class="fa-solid fa-bars"></i>
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,8 +31,7 @@ const Nav = () => {
     </ul>
     <div className="form-inline my-2 my-lg-0">
       <div className="im">
-      <img src="/imgss/WhatsApp Image 2024-05-30 at 7.11.09 AM.jpeg" alt="" />
-     <h4>Amir Salama</h4>
+      <i class="fa-solid fa-code"></i>
       </div>
     </div>
   </div>

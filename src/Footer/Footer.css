@@ -1,7 +1,9 @@
 .countact-us{
     width: 100%;
     margin: auto;
-    background-color: rgba(34, 31, 31, 0.994);
+    background-color: rgba(67, 60, 60, 0.994);
+    background-color: black;
+    border-top: 2px solid rgba(54, 49, 49, 0.994) ;
    padding-bottom: 50px;
 }
 

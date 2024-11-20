@@ -16,7 +16,7 @@ const Hede = () => {
         <Link className='lo' to="/full-stack">All</Link>
         <Link className='lo' to="/free">Free</Link>
         <Link className='lo' to="/premium">
-        <span class="name"> <i class="fa-solid fa-bolt-lightning" style={{color: "rgb(255, 145, 0)"}}></i> &nbsp; Premium</span>
+        <span class="name"> <i class="fa-solid fa-bolt-lightning" style={{color: "rgb(255, 145, 0)"}}></i> &nbsp; Discount</span>
         </Link>
         </div>
         </div>
