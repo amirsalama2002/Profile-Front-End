@@ -1,5 +1,5 @@
 .aboutfot{
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 .aboutfot .flk{
@@ -10,17 +10,20 @@
 }
 
 .aboutfot .flk .monn{
+    width: 40rem;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    text-align: center;
-
 }
 .aboutfot .flk .monn .toglr{
+    display: inline-block;
     border: 1px solid rgba(0, 0, 0, 0.327);
     text-align: center;
-    padding: 30px;
+    padding: 25px;
     width: 10rem;
-    margin: auto;
+    margin: auto 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     text-align: center;
@@ -41,7 +44,7 @@
     font-weight: bold;
 }
 .aboutfot .flk .mon{
-    width: 40%;
+    width: 30rem;
     margin: auto;
 }
 .aboutfot .flk .mon h3{

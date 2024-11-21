@@ -6,17 +6,26 @@
 .le ul li{
     list-style: none;
     margin-bottom: 5px;
-    background-color: rgba(80, 74, 74, 0.894);
+    background-color: rgba(80, 74, 74, 0.613);
     color: white;
     padding: 10px 15px;
     border-radius: 2px;
     cursor: pointer;
     font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(134, 123, 123);
+    transition: 0.5s;
+    transform: 0.5s;
+    &:hover{
+        background-color: black;
+        transition: 0.5s;
+        transform: 0.5s;
+    }
 }
-.le ul li:hover{
+/* .le ul li:hover{
     background-color: rgba(80, 74, 74, 0.662);
     
-}
+} */
 .le ul li a{
     color: white;
 }

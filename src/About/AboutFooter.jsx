@@ -12,19 +12,19 @@ const AboutFooter = () => {
                     </div>
                     <div className="toglr">
                     <i class="fa-solid fa-code"></i>
-                    <p>80%</p>
+                    <p>85%</p>
                     <h6>Back End</h6>
                     </div>
                     <div className="toglr">
                     <i class="fa-solid fa-paperclip"></i>
-                    <p>70%</p>
+                    <p>80%</p>
                     <h6>Full Stack</h6>
-                    </div>
+                  </div>
                 </div>
                 <div className="mon">
                     <h3>Servers</h3>
                     <h5>We provide the best service to the website, including free hosting and code skills. We are a team and we love to help companies</h5>
-                    <h4> We provide code Frontendusing html, css, javascript and bootstrap reactjs backend php and mysql</h4>
+                    <h4> We provide code Frontendusing html, css, javascript ,Tailwind, bootstrap reactjs backend php and mysql and Laravel (MVC) and RESTful API and Postman Api</h4>
                 </div>
               </div>
         </div>
