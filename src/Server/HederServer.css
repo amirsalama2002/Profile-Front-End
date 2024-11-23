@@ -1,17 +1,20 @@
 .hederserver{
-    display: flex;
-    padding: 100px 0;
+    /* display: flex; */
+    padding: 200px 0;
     width: 100%;
     margin: auto;
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url('../../public/imgss/mg.webp');
+    /* background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url("../../public/imgss/full-stack\(1\).jpg"); */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.663),rgba(0, 0, 0, 0.996)), url("../../public/imgss/about\(1\).jpg");
     background-size: cover;
     background-position: center;
     height: 99.7vh;
     align-items: center;
+    text-align: center;
+    height: 100vh;
 }
 
 .hederserver .heserver{
-    width: 80%;
+    width: 100%;
     margin: auto;
     align-items: center;
 }
@@ -20,34 +23,60 @@
       margin: auto;
 }
 .hederserver .heserver .hedserver h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     color: white;
     text-transform: capitalize;
     margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
 }
 .hederserver .heserver .hedserver h1 span{
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size:50px;
+    background: linear-gradient(90deg, rgb(240, 6, 181) 0%,
+    rgb(150, 23, 255) 35%, rgb(0, 119, 255) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-transform: capitalize;
+   font-family: "WPP Black",sans-serif;
+   line-height: 2;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-color: #FFF;
+   -webkit-text-stroke-width: 1px;
+   margin: 0 auto;
+   animation: name 1s steps(5, start) infinite;
 }
 .hederserver .heserver .hedserver h5{
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 200;
     color: white;
     font-weight:400px;
+    text-transform: capitalize;
 }
 
-.hederserver .heserver .hedserver button{
+.hederserver .heserver .hedserver .btn{
     background-color: white;
     color: black;
     outline: none;
     border: none;
-    padding: 5px;
+    padding: 8px;
     margin-top: 20px;
     font-size: 20px;
-    border-radius: 4px;
+    border-radius: 5px;
     font-weight: 400px;
     text-decoration: none;
+    background: linear-gradient(90deg, rgb(240, 6, 181) 0%, rgb(150, 23, 255) 35%, rgb(0, 119, 255) 100%);
+
+    color: white;
+    transition: 0.5s;
+    &:hover{
+        background-color: rgb(96, 2, 71);
+        transition: 0.5s;
+
+    }
 }
 
 @media screen and (max-width:990px) {

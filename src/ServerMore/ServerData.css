@@ -1,0 +1,79 @@
+.hero-section{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+.hero-section .hero-image{
+   width: 30rem;
+   margin: auto;
+}
+.hero-section .hero-content{
+    width: 30rem;
+   margin: auto;
+}
+.hero-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 2s ease-out;
+}
+
+
+.hero-section .hero-title{
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.hero-section .hero-title .highlight{
+    background: linear-gradient(90deg, rgb(240, 6, 181) 0%, rgb(150, 23, 255) 35%, rgb(0, 119, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-section .hero-description{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin-bottom: 30px;
+}
+.hero-section .hero-buttons{
+    display: flex;
+    gap: 1rem;
+}
+.cta-button.primary{
+    background: linear-gradient(90deg, rgb(240, 6, 181) 0%, rgb(150, 23, 255) 35%, rgb(0, 119, 255) 100%);
+}
+.cta-button{
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.cta-button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+@media screen and (max-width: 1000px) {
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-section{
+        text-align: center;
+        margin-bottom: 120px !important;
+    }
+    .hero-section .hero-image{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,9 @@
+.HomeMore{
+    width: 100%;
+    margin: auto;
+    padding: 100px 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0d1117, #1a1e24);
+    color: #ffffff;
+    overflow-x: hidden;
+}

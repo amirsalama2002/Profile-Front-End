@@ -4,7 +4,7 @@ import About from "../About/About";
 import Server from "../Server/Server";
 import NoPage from "../NoPage/NoPage";
 import Messge from "../Countact/Messge";
-import HomeMore from "../More/HomeMore";
+import HomeMore from "../ServerMore/HomeMore";
 import FullStack from "../Full-Stack/Full-Stack";
 import Free from "../Free/Free";
 import Premium from "../Premium/Premium";

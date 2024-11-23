@@ -1,9 +1,8 @@
 .countact-us{
     width: 100%;
     margin: auto;
-    background-color: rgba(67, 60, 60, 0.994);
-    background-color: black;
-    border-top: 2px solid rgba(54, 49, 49, 0.994) ;
+    background: linear-gradient(135deg, #0d1117, #1a1e24);
+    border-top: 2px solid rgb(54, 49, 49) ;
    padding-bottom: 50px;
 }
 
