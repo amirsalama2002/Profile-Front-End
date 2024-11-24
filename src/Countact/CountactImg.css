@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../../public/imgss/allbg.png');
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../../public/imgss/homepage-hero-new.png');
     background-size: cover;
     padding: 150px 0;
     object-fit: cover;
