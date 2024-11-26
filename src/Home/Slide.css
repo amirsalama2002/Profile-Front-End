@@ -43,7 +43,7 @@
   background-color: rgb(24, 36, 47);
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .mostafe .hen h1{
   font-weight: bold;
@@ -62,7 +62,7 @@
     width: 35rem;
     margin: auto;
     border: 2px solid #123456;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border-radius: 2px;
 
   }
@@ -98,4 +98,11 @@
   }
   
  
-  
+  @media screen and (max-width:1115px){
+    .slider-container{
+      margin-bottom: 20px;
+    }
+    .mostafe .hen{
+      margin-bottom: 20px;
+    }
+  }

@@ -18,9 +18,11 @@
     color: white;
     &:hover{
         background-color: black !important;
+        color: white !important;
     }
     &:focus{
         background-color: black !important;
+        color: white !important;
     }
 }
 .navv label{
@@ -46,9 +48,11 @@
     color: white;
     &:hover{
         background-color: black !important;
+        color: white !important;
     }
     &:focus{
         background-color: black !important;
+        color: white !important;
     }
 }
 .navv textarea{
@@ -57,9 +61,11 @@
     color: white;
     &:hover{
         background-color: black !important;
+        color: white !important;
     }
     &:focus{
         background-color: black !important;
+        color: white !important;
     }
 
 }
