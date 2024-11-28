@@ -29,6 +29,9 @@ const CountactUs = () => {
               });
         }
       };
+      const massge =()=>{
+        alert("User completed successfully!");
+      }
     return (
          <div onSubmit={onSubmit}>
         <form  className='navv' method='POST' action=''>
@@ -53,7 +56,7 @@ const CountactUs = () => {
           <label className="form-label">Message</label>
           <textarea name="message" placeholder='Messge' className="form-control" required  ></textarea>
         </div>
-         <button type='submit' className="btn btn-primary">SubmitForm</button>
+         <button onClick={massge} type='submit' className="btn btn-primary">Submit Form</button>
       </form>
       </div>
 
